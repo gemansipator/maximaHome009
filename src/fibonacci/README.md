@@ -5,6 +5,7 @@
 Реализовать данную задачу через разные циклы(for, while, do wile)
 
 
+
 ********************************************************************
 
 https://javarush.com/groups/posts/2793-chto-dolzhen-znatjh-programmist-na-java-o-chislakh-fibonachchi

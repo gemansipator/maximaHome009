@@ -1,4 +1,4 @@
-package multiplicationTable;
+package multiplication.table;
 
 public class Pifagor {
     public static void main(String[] args) {

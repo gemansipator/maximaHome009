@@ -4,7 +4,17 @@ import java.util.Scanner;
 
 public class Palindrome {
     public static void main(String[] args) {
-        // TODO: 14.01.2023
+        Scanner s = new Scanner(System.in);
+        System.out.println("Введите текст: ");
+        String n = s.nextLine();
+
+        int palindromeCount = 0;
+        for(String word: n.split("[ ,.!]")) {
+            if(word.equals(new StringBuilder(word).reverse().toString())) {
+                ++palindromeCount;
+            }
+        }
+        System.out.println(palindromeCount);
 
     }
 }

@@ -9,7 +9,7 @@ public class Palindrome {
         String n = s.nextLine();
 
         int palindromeCount = 0;
-        for(String word: n.split("[ ,.!]")) {
+        for(String word: n.split("[ ,.]")) {
             if(word.equals(new StringBuilder(word).reverse().toString())) {
                 ++palindromeCount;
             }

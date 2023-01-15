@@ -3,8 +3,7 @@ package integer.to.binary;
 import java.util.Scanner;
 
 public class IntegerBinaryRecursion {
-    public static String toBinary(int n)
-    {
+    public static String toBinary(int n) {
         if (n == 0) {
             return "";
         }
